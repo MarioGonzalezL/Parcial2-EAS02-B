@@ -6,9 +6,10 @@ using namespace std;
 
 class Circulo: public Figura
 {
-    void Circulo:: Circulo(): Figura ();
-    void Circulo::Circulo(int b, int h):  Figura(int b, int h);
-    void Circulo::  setPerimetro(float a):  setPerimetro( float a );
-    float calcularPerimetro (float a);
+    Circulo(): Figura (){};
+    Circulo(int b):  Figura(b,0){
+        setPerimetro(calcularPerimetro(b));
+    };
+    float Circulo::calcularPerimetro (int b);
 };
     #endif Circulo_h

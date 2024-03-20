@@ -11,8 +11,8 @@ private:
 public:
     Figura();
     Figura(int b, int h);
-    void setPerimetro(float a);
-    float getPerimetro();
+    void Figura::setPerimetro(float a);
+    float Figura::getPerimetro(float p);
 };
 
 

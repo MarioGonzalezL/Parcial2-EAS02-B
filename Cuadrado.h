@@ -6,9 +6,10 @@ using namespace std;
 
 class Cuadrado: public Figura
 {
-    void Cuadrado:: Cuadrado(): Figura ();
-    void Cuadrado::Cuadrado(int b, int h):  Figura(int b, int h);
-    void Cuadrado::setPerimetro(float a):  setPerimetro( float a );
-    float calcularPerimetro (float a);
+     Cuadrado(): Figura (){};
+     Cuadrado(int b, int h):  Figura(b,0){
+        setPerimetro(calcularPerimetro(b));
+     };
+    float Cuadrado::calcularPerimetro (float b);
 };
     #endif Cuadrado_h

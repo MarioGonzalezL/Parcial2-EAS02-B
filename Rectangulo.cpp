@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
-    float calcularPerimetro (float a){
-        a = 2(b+h);
+    float Rectangulo::calcularPerimetro (int b, int h)
+    {
+        return 2*(b+h);
     }

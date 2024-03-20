@@ -6,9 +6,8 @@ using namespace std;
 
 class Rectangulo: public Figura
 {
-    void Rectangulo(): Figura ();
-    void Rectangulo(int b, int h): Figura(int b, int h);
-    void setPerimetro(float a): setPerimetro( float a );
-    float calcularPerimetro (float a);
+     Rectangulo(): Figura ();
+     Rectangulo(int b, int h): Figura(int b, int h);
+    float Rectangulo::calcularPerimetro (int b, int h);
 };
 #endif Cuadrado_h

@@ -3,6 +3,6 @@
 #include <iostream>
 using namespace std;
 
-    float calcularPerimetro (float a){
-        a = b*4;
+    float calcularPerimetro (int b){
+        return b*4;
     }
